@@ -1,0 +1,27 @@
+
+        info_sol = """
+        ----------------------------------------
+              THIS IS THE SOLUTION PERFORMED
+              IN A PYTHON VARIABLE
+        ----------------------------------------
+        """
+        print('{}'.format(info_sol))
+
+        # showing the CONTENT formated in a
+        # python variable
+        print('{} '.format(my_var_content))
+
+        # list like one word
+        # TODO: it's work. you can uncomment the follow line to sheck it
+        # print('\n List like one word \n\n {}'.format(list_one[0]))
+
+
+
+    try:
+        myfile = open('test2.json', 'r')
+        mycontent = myfile.read()
+        file_name = myfile.name
+        myfile.close()
+        print('\n SUCCESS \n File {} was opened and read successfully.'.format(file_name))
+    except Exception as error:
+        print('\n ERROR \n Error try to open a file.\n Python said: {}'.format(error))
