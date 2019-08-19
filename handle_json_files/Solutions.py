@@ -4,6 +4,7 @@ from handle_json_files import Formating as fda
 import time as t
 
 
+
 """ this class implements some solution way to solve 
 our issue
 """
@@ -91,10 +92,13 @@ class Solutions(object):
 
     # TODO: code 1 - TO BE IMPLEMENTE, GET NEMA AND CONTENT
 
-    def file_text(self, data):
+    def file_text(self, data, root_path):
+        fdao = fda.Formating()
         self.show_info2user('FILE')
+
         file_name = 'your_file.txt'
         yes_name = False
+
         while yes_name is False:
             try:
                 file_name = input('\n Enter your file name with 5 or caracters:  ')
@@ -109,8 +113,11 @@ class Solutions(object):
                 print('\n WARNING: INVALID NAME!!!')
                 print('\n PYTHON SAID: {}'.format(error))
 
+        fdao.change_dir(2,'notusef')
+
         # cerating the file to write the content
         try:
+            file_name = file_name + '.txt'
             file = open(file_name, 'w', encoding='utf8')
             # file.write(data)
             file.writelines(data)
@@ -119,7 +126,7 @@ class Solutions(object):
         except Exception as error:
             print('\n Error by trying to open file {}\n\n PYTHON SAID: {}'.format(file_name, error))
 
-        # print('\n\n DO NOT IMPLEMENTED Yet. \n\n')
+        fdao.change_dir(0, root_path)
 
 
     def set_type(self, data):

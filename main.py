@@ -2,6 +2,8 @@
 
 # TODO: describe the problem gonna be solved in this project here
 # importing modules
+import os
+
 from handle_json_files import json_module as jm
 from handle_json_files import Solutions as sol
 import time as t
@@ -44,7 +46,9 @@ def main_test():
     data_var, data_list = sol_ob.smart_solution()
 
     if choice == 1:   # short solution
-        sol_ob.file_text(data_var)
+        root_path = os.getcwd()
+
+        sol_ob.file_text(data_var, root_path)
         main_test()    # call the main method again to run the app
     elif choice == 2:  # long solution
         sol_ob.set_type(data_var)

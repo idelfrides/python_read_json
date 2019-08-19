@@ -1,6 +1,8 @@
 
 # class contain methods to help solving
 # this issue
+import os
+
 
 class Formating(object):
 
@@ -82,3 +84,16 @@ class Formating(object):
         except Exception as error:
             print('\n Error. Python said: {}'.format(error))
 
+
+
+    def change_dir(self, code, root_path):
+        if code == 1:   # go to handle_json_files
+            path_dir = os.path.dirname(os.path.abspath(__file__))
+            os.chdir(path_dir)
+        elif code == 2:  # to files_dir  folder
+            os.chdir('files_dir')
+        elif code == 0: # to root project dir
+            os.chdir(root_path)
+            print(os.chdir(root_path))
+        else:
+            pass
