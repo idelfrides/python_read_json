@@ -17,7 +17,7 @@ The file **main.py** has one method, the main one, called - **main_test()** wich
 To run this app you need to execute **main.py** file.
 
 
-   ### The Challenge
+### The Challenge
 
 
 The CHALLENGE consist in read a content from a json file('test.json' to our purpose) 
@@ -25,7 +25,7 @@ without using the 'loads()' method from json package.
 The CHALLENGE itself is only a reproduction of what the python function json.loads() does.
 
 
-   ### The Solution
+### The Solution
 
 The technique used to solve this CHALLENG is - reading the documents character by character,
 to recover the test.json file content to a python variables.
