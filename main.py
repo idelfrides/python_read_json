@@ -1,7 +1,24 @@
-"""Docstrings."""
+"""
+----------------------
+    THE CHALLENGE
+----------------------
 
-# TODO: describe the problem gonna be solved in this project here
-# importing modules
+The CHALLENGE consist in read a content from a json file('test.json' to our purpose) 
+without using the 'loads()' method from json package. 
+The CHALLENGE itself is only a reproduction of what the python function json.loads() does.
+
+-------------------
+     SOLUTION
+-------------------
+
+So, the technique used to solve this CHALLENG is - reading the documents character by character,
+to recover the test.json file content to a python variables.
+The test.json file is only an example, the most important thing here is
+that the script be able to work with other files in json format,
+with different data structures, so the script must be dynamic.
+
+"""
+
 import os
 
 from handle_json_files import json_module as jm
