@@ -1,5 +1,4 @@
-    
-""" This module hold the class, wich contain methods to implements
+ """ This module hold the class, wich contain methods to implements
     two solutions to solve our issue """
 
 from handle_json_files import Formating as fda
@@ -18,7 +17,7 @@ class Solutions(object):
         print('\n\n MENU OF SOLUTION AVAILABLE\n'
               '\n [1] -> FILE Text '
               '\n [2] -> SET data type Solution '
-              '\n [3] -> DICTIONARY dats type '
+              '\n [3] -> DICTIONARY data type '
               '\n [4] -> TUPLE  data type '
               '\n [5] -> LIST data type '
               '\n [6] -> VARIABLE python '
