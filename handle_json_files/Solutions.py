@@ -1,23 +1,19 @@
+    
+""" This module hold the class, wich contain methods to implements
+    two solutions to solve our issue """
 
-# importing modules
 from handle_json_files import Formating as fda
 import time as t
 
 
-
-""" this class implements some solution way to solve 
-our issue
-"""
-
-
-class Solutions(object):
+class Solutions(object):    
+""" This class implements some solution way
+    to solve our issue """
 
     def __init__(self):
+        """ Init method do nothing """
         pass
 
-    """ This is the method perform
-        the MENU of options
-       """
     def menu(self):
         print('\n\n MENU OF SOLUTION AVAILABLE\n'
               '\n [1] -> FILE Text '
@@ -45,10 +41,9 @@ class Solutions(object):
                 print('\n PYTHON SAID: {}'.format(error))
         return option
 
-    """ This is the method performe 
-        the smart solution
-    """
     def smart_solution(self):
+        """ This is the method performe the smart solution """
+        
         info = """
         ----------------------------------------
             THIS IS THE SHORT AND SMART SOLUTION
@@ -61,7 +56,6 @@ class Solutions(object):
         try:
             file = open('test.json', 'r')
             content = file.read()
-            # f_name = file.name
             print('\n SUCCESS \n File {} was opened and read successfully.'.format(file.name))
             file.close()
         except Exception as error:
@@ -84,10 +78,9 @@ class Solutions(object):
           GOING TO BE CLOSED.
         ------------------------------------------
         """
+        
         print('{}'.format(info))
-
         t.sleep(15)
-
         return
 
     # TODO: code 1 - TO BE IMPLEMENTE, GET NEMA AND CONTENT
