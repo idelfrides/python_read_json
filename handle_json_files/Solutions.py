@@ -70,20 +70,19 @@ class Solutions(object):
 
     def long_solution(self):
         info = """
-        ------------------------------------------
+        ----------------------------------------------
           THIS IS THE LONG SOLUTION. I CONSIDER 
           THIS ONE A NOT SMART SOLUTION. 
           IT'S DO NOT FINISHED, SO, IT WAS REMOVED.
-          THEREFORE, TEST OTHER SOLUTION BECAUSE IT 
-          GOING TO BE CLOSED.
-        ------------------------------------------
+          THEREFORE, TEST OTHER SOLUTION BECAUSE 
+          THIA ONE GOING TO BE CLOSED.
+        -----------------------------------------------
         """
         
         print('{}'.format(info))
         t.sleep(15)
         return
 
-    # TODO: code 1 - TO BE IMPLEMENTE, GET NEMA AND CONTENT
 
     def file_text(self, data, root_path):
         fdao = fda.Formating()
@@ -160,13 +159,13 @@ class Solutions(object):
 
 
     def show_info2user(self, data_type):
-        info_sol = """
+        info_solution = """
         ----------------------------------------
              THIS IS THE SOLUTION PERFORMED 
              IN A FOLLOW PYTHON DATA TYPE 
         ----------------------------------------
         """
-        print('{}'.format(info_sol))
+        print('{}'.format(info_solution))
         print('\n TYPE -->  {}'.format(data_type))
         print('\n\n')
 
