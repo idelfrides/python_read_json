@@ -1,7 +1,7 @@
-# Handle json documents with python
+# Read json documents with python
 
 ### The Project
-This is a project created to **handle json files to mutables data structures** in Python 3. 
+This is a project created to **read json files to mutables data structures** in Python 3. 
 It is a solution to a challenge. This is the practical test for my admission in my second job as a backend developer.
 
 This project is about managing text file containing json document in python.
