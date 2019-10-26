@@ -2,10 +2,10 @@
 
 ### The Project
 This is a project created to **read json files to mutables data structures** in Python 3. 
-It is a solution to a challenge. This is the practical test for my admission in my second job as a backend developer.
+It is a solution to a challenge, the practical test for my admission in my last job as a **Back-end Developer.**
 
 This project is about managing text file containing json document in python.
-On it I build an app witch get data in a json file and  put it into a mutable data structure chosen by user/you trough a menu of selection. 
+On it I build an app witch get content from a json file and put it into a mutable data structure chosen by user/you trough a menu of selection. 
 The App use **OOP** and **Microserce Architecture** and organized like you can see on tab **<> Code** (in the top left menu).
 - The folder **handle_json_files** is a python package witch contain modules(classes, python files). Each module keeps some methods, where each method is responsible to execute one task. The classes  has the same name with python file.
 - The folder **files_dir** keeps the files created by user and can be deleted anytime he want. 
