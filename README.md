@@ -19,19 +19,14 @@ To run this app you need to execute **main.py** file.
 
 ### The Challenge
 
-
 The CHALLENGE consist in read a content from a json file('test.json' to our purpose) 
-without using the 'loads()' method from json package. 
+**without using the 'loads()' method from json package.** 
 The CHALLENGE itself is only a reproduction of what the python function json.loads() does.
 
 
 ### The Solution
 
-The technique used to solve this CHALLENG is - reading the documents character by character,
-to recover the test.json file content to a python variables.
-The test.json file is only an example, the most important thing here is
-that the script be able to work with other files in json format,
-with different data structures, so the script must be dynamic.
+If you want to know the techenique used to solve the CHALLENGE,mail me or text me by Linkedin.
 
 
 
@@ -39,4 +34,8 @@ with different data structures, so the script must be dynamic.
 
 Author: IDELFRIDES JORGE | Mail me by idelfridesjorge@alu.ufc.br 
 
-FOLLOW ME ON GITHUB: [ENG. IDELFRIDES JORGE](https://github.com/idelfrides)
+FOLLOW ME ON Linkedin: [IDELFRIDES JORGE](https://www.linkedin.com/in/idelfrides-jorge-089939107/)
+
+FOLLOW ME ON GITHUB: [IDELFRIDES JORGE](https://github.com/idelfrides)
+
+
