@@ -34,8 +34,8 @@ If you want to know the techenique used to solve the CHALLENGE,mail me or text m
 
 Author: IDELFRIDES JORGE | Mail me by idelfridesjorge@alu.ufc.br 
 
-FOLLOW ME ON Linkedin: [IDELFRIDES JORGE](https://www.linkedin.com/in/idelfrides-jorge-089939107/)
+FOLLOW ME ON Linkedin: [Idelfrides Jorge](https://www.linkedin.com/in/idelfrides-jorge-089939107/)
 
-FOLLOW ME ON GITHUB: [IDELFRIDES JORGE](https://github.com/idelfrides)
+FOLLOW ME ON GITHUB: [Idelfrides Jorge](https://github.com/idelfrides)
 
 
